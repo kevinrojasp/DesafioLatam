@@ -1,0 +1,71 @@
+body {
+    background: #17a2b8; 
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+:root {
+    --main-bg-color: #e83e8c;
+}
+
+.navbar {
+    background: var(--main-bg-color);
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: var(--main-bg-color);
+    border-color: white;
+    color: white;
+  }
+
+.navbar-brand img {
+    height: 3.3125rem;
+}
+
+#main-title{
+    font-size: 3.75rem;
+    font-weight: 600;
+    color: #707070;
+}
+
+#metodos-de-pago {
+    width: 100%;
+    background: #17a2b8;
+    padding: 20px 0;
+}
+
+.card-body .card-title{
+    color: #373A3C;
+    font-size: 17px;
+}
+
+.card-link{
+    text-decoration: none;
+}
+
+footer {
+    background: var(--main-bg-color);
+}
+footer img {
+    height: 6.25rem;
+}
+
+#creado-por {
+    position: fixed;
+    top: 95%;
+    right: 20px;
+    transform: translateY(-50%);
+    background-color: #ffffff69;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-size: 14px;
+    z-index: 1000; 
+    transition: transform 0.3s ease-out;
+}
+
+
